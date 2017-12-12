@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none; }
+
+body {
+  background: #f1edeb; }
+
+.contenedor {
+  width: 90%;
+  margin: 2em auto; }
+
+header {
+  margin-bottom: 1.5em; }
+  header nav {
+    display: flex; }
+    header nav a {
+      padding: 1em;
+      color: #FFF;
+      background-color: #333;
+      margin-right: 1.5em;
+      border-radius: 5px; }
+      header nav a:hover {
+        color: #f94343; }
+
+.main {
+  display: flex;
+  flow-flex: colums wrap; }
+  .main article {
+    align-items: center;
+    padding: 1.5em;
+    background: #e4763b;
+    margin-bottom: 1.5em;
+    box-shadow: 3px 2px 0px 1px;
+    text-align: justify; }
+    .main article h1 {
+      color: #ececec;
+      font-size: 21px; }
+      .main article h1:hover {
+        color: #555; }
+    .main article:hover {
+      border: 3px solid #999; }
+
+/*# sourceMappingURL=main.css.map */
